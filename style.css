@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: rgb(218, 246, 255);
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@ section {
 }
 
 footer {
-  background-color: lightblue;
+  background-color: rgb(218, 246, 255);
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
