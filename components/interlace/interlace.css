@@ -1,0 +1,188 @@
+/* Buttons css */
+
+/* Simple Button */
+.simple-button {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Simple Hover */
+.simple-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.simple-hover:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+/* Slide-Up Hover */
+.slide-up-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+  transform: translateY(0);
+}
+
+.slide-up-hover:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+/* Grow Hover */
+.grow-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+  transform: scale(1);
+}
+
+.grow-hover:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Rotate Hover */
+.rotate-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+}
+
+.rotate-hover:hover {
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+/* Outline Hover */
+.outline-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: rgb(255, 255, 255);
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  transition: border-color 0.5s ease;
+}
+
+.outline-hover:hover {
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* Shadow Hover */
+.shadow-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: box-shadow 0.5s ease;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Background Color Hover */
+.bg-color-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.bg-color-hover:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+/* Background Gradient Hover */
+.bg-gradient-hover {
+  padding: 10px 20px;
+  background: linear-gradient(to right, rgb(65, 65, 255), lightblue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.5s ease;
+}
+
+.bg-gradient-hover:hover {
+  background: linear-gradient(to right, lightblue, rgb(65, 65, 255));
+  cursor: pointer;
+}
+
+/* Underline Hover */
+.underline-hover {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(65, 65, 255);
+  border: none;
+  border-radius: 5px;
+  transition: border-bottom 0.5s ease;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+.underline-hover:hover {
+  border-bottom: 2px solid rgb(65, 65, 255);
+  cursor: pointer;
+}
+
+/* Swap Color Hover */
+.swap-color-hover {
+  padding: 10px 20px;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.swap-color-hover:hover {
+  background-color: white;
+  color: rgb(65, 65, 255);
+  cursor: pointer;
+}
+
+
+/* Code-Snippet css */
+/* Code-Snippet css */
+
+pre {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+  overflow-x: auto;
+}
+
+code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  white-space: pre-wrap;
+}

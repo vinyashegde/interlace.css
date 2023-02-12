@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <style>
+    /* Common styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header {
+      background-color: lightblue;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+    
+    header nav {
+      display: inline-block;
+    }
+    
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    header nav a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding: 20px;
+      font-weight: bold;
+    }
+    
+    main {
+      padding: 50px;
+      flex: 1;
+    }
+    
+    section {
+      margin-bottom: 50px;
+      margin-left: 70px;
+    }
+    
+    footer {
+      background-color: lightblue;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+    }
+    
+    /* Dark mode styles */
+    .dark-mode {
+      background-color: rgb(50, 50, 50);
+      color: white;
+    }
+    
+    .dark-mode header {
+      background-color: rgb(65, 65, 65);
+    }
+    
+    .dark-mode footer {
+      background-color: rgb(65, 65, 65);
+    }
+    
+    /* Gradient background styles */
+    .gradient-background {
+      background: linear-gradient(to right, rgb(50, 65, 255), rgb(255, 50, 130));
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/banner trans.png" id="logo" width="400" height="100">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="howtouse.html">How to Use</a></li>
+        <li><a href="docs.html">Docs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="gradient-background">
+    <h2>My CSS Library</h2>
+    <p>Welcome to my CSS library, where you can find a collection of modern and unique styles to enhance the look and feel of your website. With our library, you can easily add eye-catching buttons, hover effects, and more to your web pages without writing any complex CSS code.</p>
+    <div class="container">
+        <div class="mode-toggle">
+          <input type="checkbox" id="mode-toggle">
+          <label for="mode-toggle">Toggle Dark Mode</label>
+        </div>
+        <section class="features">
+          <h3>Features</h3>
+          <ul>
+            <li>Modern gradient backgrounds</li>
+            <li>Stylish buttons with hover effects</li>
+            <li>Customizable fonts and typography</li>
+            <li>Unique transitions and animations</li>
+          </ul>
+        </section>
+        <section class="how-to-use">
+          <h3>How to Use</h3>
+          <p>To start using our CSS library, simply include the CSS file in your HTML file or link the CSS file directly from our CDN:</p>
+          <pre>
+            <code>
+              &lt;link rel="stylesheet" type="text/css" href="https://cdn.mycsslibrary.com/css/library.css"&gt;
+            </code>
+          </pre>
+          <p>You can then start using the various styles and classes in your HTML elements to add the desired effects and styles to your website.</p>
+        </section>
+        <section class="docs">
+          <h3>Docs</h3>
+          <p>Our documentation provides in-depth information and examples of how to use the various styles and classes in our library. You can also find information on customizing and modifying the styles to fit your specific needs.</p>
+          <a href="https://docs.mycsslibrary.com" class="simple-button">View Docs</a>
+        </section>
+      </div>
+      <style>
+        /* Gradient Background */
+        .gradient-background {
+          background-image: linear-gradient(to right, #3f51b5, #5c6bc0);
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-align: center;
+        }
+      
+        /* Container */
+        .container {
+          max-width: 800px;
+          padding: 50px;
+        }
+      
+        /* Mode Toggle */
+        .mode-toggle {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        }
+      
+        .mode-toggle input[type="checkbox"] {
+          display: none;
+        }
+      
+        .mode-toggle label {
+          cursor: pointer;
+          font-size: 14px;
+          color: white;
+        }
+      
+        /* Features */
+        .features {
+          margin-top: 50px;
+        }
+      
+        .features h3 {
+          margin-bottom: 20px;
+        }
+      
+        .features ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+      
+        .features li {
+          margin-bottom: 10px;
+        }
+      
+        /* How to Use */
+        .how-to-use {
+          margin-top: 50px;
+        }
+      
+        .how-to-use h3 {
+          margin-bottom: 20px;
+        }
+      
+        /* Docs */
+        .docs{
+margin-top: 50px;
+text-align: center;
+}
+
+.docs h3 {
+font-weight: bold;
+}
+
+.docs p {
+margin-top: 20px;
+font-size: 14px;
+color: rgb(120, 120, 120);
+text-align: left;
+}
+
+.docs a {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: rgb(65, 65, 255);
+color: white;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Dark Mode & Light Mode Switch */
+.switch {
+margin-top: 50px;
+text-align: right;
+}
+
+.switch input[type="checkbox"] {
+display: none;
+}
+
+.slider {
+width: 50px;
+height: 25px;
+border-radius: 25px;
+background-color: rgb(200, 200, 200);
+cursor: pointer;
+position: relative;
+}
+
+.slider::before {
+content: "";
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background-color: white;
+position: absolute;
+left: 0;
+top: 0;
+transition: 0.4s;
+}
+
+input[type="checkbox"]:checked + .slider {
+background-color: rgb(65, 65, 255);
+}
+
+input[type="checkbox"]:checked + .slider::before {
+transform: translateX(25px);
+}
+
+.switch p {
+display: inline-block;
+margin-left: 10px;
+font-size: 14px;
+color: rgb(120, 120, 120);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+main {
+padding: 20px;
+}
+
+.docs {
+margin-left: 0;
+text-align: center;
+}
+
+.switch {
+text-align: center;
+margin-top: 20px;
+}
+}
+</style>
+
+<body>
+  <header>
+    <h1>My CSS Library</h1>
+  </header>
+  <main class="gradient-background">
+    <h2>Welcome</h2>
+    <p>Welcome to my CSS library, where you can find a collection of modern and unique styles to enhance the look and feel of your website. With our library, you can easily add eye-catching buttons, hover effects, and more to your web pages without writing any complex CSS code.</p>
+  </main>
+  <section class="docs">
+    <h3>Documentation</h3>
+    <p>For more information on how to use our CSS library, please check out our <a href="#">documentation</a>.</p>
+  </section>
+  <section class="switch">
+    <input type="checkbox" id="switch">
+    <label class="slider" for="switch"></label>
+    <p>Dark Mode:</p>
+
+    <p>Our library also includes a built-in dark mode feature, allowing you to switch between light and dark modes with a single click. The dark mode feature uses a dark, sleek color palette that is perfect for low-light environments and enhances readability. To enable dark mode, simply add the following code to your HTML file:</p>
+    <pre>
+      <code>
+        &lt;button id="dark-mode-toggle"&gt;Toggle Dark Mode&lt;/button&gt;
+        &lt;script&gt;
+          const toggleButton = document.getElementById("dark-mode-toggle");
+          toggleButton.addEventListener("click", function() {
+            document.body.classList.toggle("dark-mode");
+          });
+        &lt;/script&gt;
+      &lt;/code&gt;
+    &lt;/pre>
+    <p>In your CSS file, you can define the styles for both light and dark modes:</p>
+    <pre>
+      <code>
+        /* Light Mode */
+        body {
+          background-color: #ffffff;
+          color: #000000;
+        }
+
+        /* Dark Mode */
+        body.dark-mode {
+          background-color: #000000;
+          color: #ffffff;
+        }
+      &lt;/code&gt;</pre>
+
+      <p>You can customize the color palette to match your website's brand by modifying the CSS code in the example above.</p>
+    </main>
+    <footer>
+      <p>Copyright &copy; My CSS Library</p>
+    </footer>
+    </body>
+    </html>
+      
+      
+      
+      
