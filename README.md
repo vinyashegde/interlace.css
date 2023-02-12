@@ -13,6 +13,13 @@ For Buttons
 Downloading the CSS File
 To download the CSS file, simply clone or download the Interlace CSS repository from Github. Then, link the CSS file in your HTML file by adding the following code to the head section of your HTML file:
 
+## Website
+
+• [**Home**](https://vinyashegde.github.io/interlace/index.html)
+• [**Docs**](https://vinyashegde.github.io/interlace/docs.html)
+
+https://vinyashegde.github.io/interlace/docs.html
+
 ## Features
 - Simple button with hover effect
 - Slide-up hover effect
@@ -21,14 +28,6 @@ To download the CSS file, simply clone or download the Interlace CSS repository 
 - Outline hover effect
 - And many more...
 
-## How to use
-1. Include the Interlace CSS file in your HTML file:
-<link rel="stylesheet" type="text/css" href="interlace.css">
-```
-2. Add the class of the desired button to a `button` or `a` tag:
-```
-<button class="simple-button">Simple Button</button>
-```
 ## Browser compatibility
 Interlace CSS is compatible with all modern browsers, including:
 
