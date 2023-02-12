@@ -5,10 +5,16 @@ Interlace CSS is a library of modern and unique CSS effects that you can use to 
 ## Getting Started
 To start using Interlace CSS in your project, you can either download the CSS file and link it in your HTML file or link the CSS file directly from a CDN.
 
-For Buttons
+
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/buttons/buttons.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.css">
 ```
+or
+```
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.min.css">
+```
+
+
 
 Downloading the CSS File
 To download the CSS file, simply clone or download the Interlace CSS repository from Github. Then, link the CSS file in your HTML file by adding the following code to the head section of your HTML file:
