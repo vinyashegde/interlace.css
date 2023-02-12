@@ -1,4 +1,4 @@
-# Interlace CSS Effects Library
+[![](https://raw.githubusercontent.com/vinyashegde/interlace/main/img/banner.png)](https://vinyashegde.github.io/interlace/index.html)
 
 Interlace CSS is a library of modern and unique CSS effects that you can use to enhance the look and feel of your website. With Interlace CSS, you can easily add eye-catching buttons, hover effects, and more to your web pages without writing any complex CSS code.
 
