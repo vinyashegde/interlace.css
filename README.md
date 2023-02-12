@@ -16,9 +16,8 @@ To download the CSS file, simply clone or download the Interlace CSS repository 
 ## Website
 
 • [**Home**](https://vinyashegde.github.io/interlace/index.html)
-• [**Docs**](https://vinyashegde.github.io/interlace/docs.html)
 
-https://vinyashegde.github.io/interlace/docs.html
+• [**Docs**](https://vinyashegde.github.io/interlace/docs.html)
 
 ## Features
 - Simple button with hover effect
