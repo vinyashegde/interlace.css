@@ -32,9 +32,11 @@ header nav ul {
 }
 
 header nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 20px;
+  font-weight: bold;
+  
 }
 
 main {
@@ -48,7 +50,12 @@ section {
 
 footer {
   background-color: lightblue;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
 }
+
+#logo {
+  float: right;
+  margin-left: -1000px;
+  }
