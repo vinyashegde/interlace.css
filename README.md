@@ -1,0 +1,2 @@
+# interlace
+ "Interlace CSS is a modern effects library that makes it easy to add eye-catching styles to your web projects. Our library includes a variety of unique effects that will make your website stand out and improve the user experience. From simple hover effects to complex animations, Interlace CSS has got you covered. With its clean and easy-to-use code, Interlace CSS is perfect for both experienced developers and those just starting out. So why wait? Add some excitement to your website with Interlace CSS today!"
