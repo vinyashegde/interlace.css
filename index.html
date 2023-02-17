@@ -1,53 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="web/style/style.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.css">
-  <link
-      rel="stylesheet"
-      type="text/css"
-      href="components/buttons/buttons.css"
-    />
-  <title>Interlace CSS - A Library of Unique CSS Effects</title>
-</head>
-<body>
-  <header>
-    <img src="img/banner trans.png" id="logo" width="325" height="80" alt="Interlace CSS Logo">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Interlace CSS - A Library of Unique CSS Effects</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="/web/interlace-global.css">
+      <link rel="stylesheet" href="/web/interlace-landing.css">
+  </head>
+  <body>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="docs.html">Docs</a></li>
-        <li><a href="https://github.com/vinyashegde/interlace">Github</a></li>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
+        <li class="menu__item"><a href="https://github.com/vinyashegde/interlace" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
       </ul>
     </nav>
-  </header>
-  <main>
-    <section id="introduction">
-      <h2>Introduction to Interlace CSS</h2>
-      <p>Interlace CSS is a library of modern and unique CSS effects that you can use to enhance the look and feel of your website. With Interlace CSS, you can easily add eye-catching buttons, hover effects, and more to your web pages without writing any complex CSS code.</p>
-      <p>To start using Interlace CSS in your project, you can either download the CSS file and link it in your HTML file, or link the CSS file directly from a CDN:</p>
-      <pre><code>&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.css"&gt;</code></pre>
-      <p>or</p>
-      <pre><code>&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.min.css"&gt;</code></pre>
-    </section>
-    <section id="features">
-      <h2>Features of Interlace CSS</h2>
-      <ul>
-        <li>Eye-catching buttons</li>
-        <li>Hover effects</li>
-        <li>Easy to use</li>
-        <li>No complex CSS code required</li>
-      </ul>
-    </section>
-    <section id="docs">
-      <h2>Interlace CSS Documentation</h2>
-      <p>Check out the docs to learn more about Interlace CSS and how to use it in your projects.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright &copy; Vinyas Hegde</p>
-  </footer>
-</body>
+    <div class="hero">
+      <h1 class="hero__title">Interlace.css</h1>
+      <p class="hero__description">A Library of Unique CSS Effects</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">install ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Installation</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <!--
+            <li class="tab active" data-tab="mac">mac</li>
+            <li class="tab" data-tab="linux">linux</li>
+            <li class="tab active" data-tab="win">win</li> -->
+          </ul>
+          <pre class="nohighlight code">
+            <!--
+            <code class="tab__pane active mac">$  brew install scribbler</code>
+            <code class="tab__pane linux">$  apt-get install scribbler</code> -->
+            <code class="tab__pane active win">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vinyashegde/interlace/components/interlace/interlace.min.css"&gt;</code>
+          </pre>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Fast & Light</h3>
+          <p>Start using it immediately.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Single File</h3>
+          <p>directly use it from web</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Secure</h3>
+          <p>Why do we need security?</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Configuration</h3>
+          <p>Easily change properties from html <span class="code code--inline">style="border-radius: 0;"</span> code. Never need to create different css file.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Highlightings</h3>
+          <p>For better readability, scribbler has a clean, beautiful color scheme allow you to scan files fast.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Coming soon</h3>
+          <p>You can expect something incredible.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Coming soon</h3>
+          <p>You can expect something incredible.</p>
+        </div>
+      </div>
+      <br><br><br><br>
+    </div>
+    <!-- 
+    <div class="changelog">
+      <div class="wrapper">
+        <h3 class="section__title">Changelog</h3>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.7</h4>
+            <small class="changelog__date">10/12/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Improving the writing workflow with better key bindings</li>
+              <li>Design updates</li>
+              <li>SSL Verification for web hooks</li>
+              <li>Render Emoji</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.6</h4>
+            <small class="changelog__date">7/30/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Adding Unicode support</li>
+              <li>Basic text highlighting</li>
+              <li>Fresh Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.5</h4>
+            <small class="changelog__date">5/10/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Save default md file in new folders</li>
+              <li>Ability to quick search on existing notes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__callout">
+          <a href="#" class="button--secondary">Checkout Full Log</a>
+        </div>
+      </div>
+    </div>
+    -->
+    <footer class="footer">&copy; Copyright 2023
+    <a href="https://github.com/vinyashegde/interlace" target="_blank" class="link link--light">Interlace</a>.css</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/web/interlace.js"></script>
+  </body>
 </html>
