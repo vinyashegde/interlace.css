@@ -1,14 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Interlace CSS Documentation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="interlace-global.css">
-    <link rel="stylesheet" href="interlace-doc.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="interlace-global.css" />
+    <link rel="stylesheet" href="interlace-doc.css" />
+    <link rel="stylesheet" type="text/css" href="./components/interlace/interlace.css">
+
   </head>
   <body>
     <div class="doc__bg"></div>
@@ -16,8 +24,18 @@
       <h1 class="logo">Interlace <span class="logo__thin">Doc</span></h1>
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="https://github.com/vinyashegde/interlace" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
-        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+        <li class="menu__item">
+          <a
+            href="https://github.com/vinyashegde/interlace"
+            class="link link--dark"
+            ><i class="fa fa-github"></i> Github</a
+          >
+        </li>
+        <li class="menu__item">
+          <a href="index.html" class="link link--dark"
+            ><i class="fa fa-home"></i> Home</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="wrapper">
@@ -32,7 +50,11 @@
       <article class="doc__content">
         <section class="js-section">
           <h3 class="section__title">Get Started</h3>
-          <p>To start using Interlace CSS in your project, you can either download the CSS file and link it in your HTML file, or link the CSS file directly from a CDN:</p>
+          <p>
+            To start using Interlace CSS in your project, you can either
+            download the CSS file and link it in your HTML file, or link the CSS
+            file directly from a CDN:
+          </p>
           <h3 class="section__title">Installation</h3>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
@@ -47,8 +69,9 @@
               </code>
             </pre>
           </div>
+          <hr />
         </section>
-        <br><br>
+        <br /><br />
         <section class="js-section">
           <h3 class="section__title">Components</h3>
           <table id="customers">
@@ -58,7 +81,10 @@
             </tr>
             <tr>
               <td>buttons</td>
-              <td>different styles of hover buttons like simple, gradient , shadow hover, etc.</td>
+              <td>
+                different styles of hover buttons like simple, gradient , shadow
+                hover, etc.
+              </td>
             </tr>
             <tr>
               <td>code snippets</td>
@@ -68,6 +94,154 @@
           <p>More and more components as the time goes.Stay tuned!</p>
           <hr />
         </section>
+
+        <section class="js-section">
+          <h3 class="section__title">Buttons</h3>
+          <br>
+
+          <h4>1. Simple Button</h4>
+          <p>
+            To change the button to square border, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="simple-button" style="border-radius: 0;"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="simple-button" style="border-radius: 0">
+            Click me!
+          </button>
+
+          <br><br>
+
+          <h4>2. Simple Hover Button</h4>
+          <p>
+            To use the simple hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="simple-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="simple-hover">Click me!</button>
+
+          <br><br>
+
+          <h4>3. Slide-Up Hover Button</h4>
+          <p>
+            To use the Slide-Up Hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="slide-up-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="slide-up-hover">Slide-Up Hover</button>
+
+          <br><br>
+
+          <h4>4. Grow Hover Button</h4>
+          <p>
+            To use the Grow Hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="grow-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="grow-hover">Grow Hover</button>
+
+          <br><br>
+
+          <h4>5. Rotate Hover Button</h4>
+          <p>
+            To use the Rotate Hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="rotate-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="rotate-hover">Rotate Hover</button>
+
+          <br><br>
+
+          <h4>6. Outline Hover Button</h4>
+          <p>
+            To use the Outline Hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="outline-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+          <button class="outline-hover">Outline Hover</button>
+
+          <br><br>
+
+          <h4>7. Shadow hover Button</h4>
+          <p>
+            To use the Shadow hover button, you can use the following code in your HTML:
+          </p>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                &lt;button class="shadow-hover"&gt;Click me!&lt;/button&gt;
+              </code>
+            </pre>
+            <button class="shadow-hover">Shadow hover</button>
+
+            <br><br>
+
+            <h4>8. Bg Color Button</h4>
+            <p>
+              To use the  Bg Color button, you can use the following code in your HTML:
+            </p>
+            <div class="code__block code__block--notabs">
+              <pre class="code code--block">
+                <code>
+                  &lt;button class="bg-color-hover"&gt;Click me!&lt;/button&gt;
+                </code>
+              </pre>
+              <button class="bg-color-hover">Bg color hover</button>
+  
+              <br><br>
+
+              <h4>9. Underline Hover Button</h4>
+              <p>
+                To use the  Underline hover button, you can use the following code in your HTML:
+              </p>
+              <div class="code__block code__block--notabs">
+                <pre class="code code--block">
+                  <code>
+                    &lt;button class="underline-hover"&gt;Click me!&lt;/button&gt;
+                  </code>
+                </pre>
+                <button class="underline-hover">underline color hover</button>
+    
+                <br><br>
+
+              <h4>10. Swap Color Button</h4>
+              <p>
+                To use the  Swap Color Button, you can use the following code in your HTML:
+              </p>
+              <div class="code__block code__block--notabs">
+                <pre class="code code--block">
+                  <code>
+                    &lt;button class="swap-color-hover"&gt;Click me!&lt;/button&gt;
+                  </code>
+                </pre>
+                <button class="swap-color-hover">swap color hover</button>
+
+          <hr />
+        </section>
+
         <!--
         <section class="js-section">
           <h3 class="section__title">Keybindings</h3>
@@ -85,10 +259,19 @@
       </article>
     </div>
 
-    <footer class="footer">&copy; Copyright 2023
-    <a href="https://github.com/vinyashegde/interlace" target="_blank" class="link link--light">Interlace</a>.css</footer>
+    <footer class="footer">
+      &copy; Copyright 2023
+      <a
+        href="https://github.com/vinyashegde/interlace"
+        target="_blank"
+        class="link link--light"
+        >Interlace</a
+      >.css
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <script src="interlace.js"></script>
   </body>
 </html>

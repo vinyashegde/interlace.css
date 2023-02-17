@@ -165,11 +165,10 @@
   cursor: pointer;
 }
 
-
 /* Code-Snippet css */
 /* Code-Snippet css */
 
-pre {
+pres {
   background-color: lightgray;
   padding: 20px;
   border-radius: 4px;
@@ -178,11 +177,85 @@ pre {
   overflow-x: auto;
 }
 
-code {
+codes {
   background-color: transparent;
   padding: 0;
   border-radius: 0;
   font-family: inherit;
   font-size: inherit;
   white-space: pre-wrap;
+}
+
+/* Dropdowns CSS */
+/* Dropdowns CSS */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: rgb(65, 65, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: rgb(65, 65, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.multi-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+ 
 }
