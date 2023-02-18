@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -66,7 +67,7 @@ html, body {
 .doc__nav li:hover {
   color: var(--primary-color-light);
   cursor: pointer;
-  transition: color .3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .doc__nav .selected {
@@ -116,4 +117,10 @@ html, body {
 
 .first-one {
   font-size: 0.87em;
-  }
+}
+
+.code__block {
+  overflow-x: auto;
+  word-wrap: break-word;
+}
+

@@ -107,6 +107,13 @@ hr {
   font-size: 80%;
 }
 
+.nohighlight code {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
 /* buttons */
 .button--primary {
   padding: 10px 22px;
@@ -311,3 +318,4 @@ table td:first-child {
     transform: translate3d(0,0,0);
   }
 }
+
