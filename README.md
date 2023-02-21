@@ -26,11 +26,10 @@ To download the CSS file, simply clone or download the Interlace CSS repository 
 • [**Docs**](https://vinyashegde.github.io/interlace/docs.html)
 
 ## Features
-- Simple button with hover effect
-- Slide-up hover effect
-- Grow hover effect
-- Rotate hover effect
-- Outline hover effect
+- Various Button Effects
+- Drop Down Menu
+- Navigation Bar 
+- Header & Footer
 - And many more...
 
 ## Browser compatibility
