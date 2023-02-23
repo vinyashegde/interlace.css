@@ -90,6 +90,7 @@ hr {
 
 /* code */
 .code {
+  position: relative;
   border-radius: 3px;
   font-family: Space Mono, SFMono-Regular, Menlo,Monaco, Consolas, Liberation Mono, Courier New, monospace;
   background: var(--bg-color);
@@ -111,6 +112,25 @@ hr {
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+.copyButton{
+  background-color: transparent; 
+  border: none;
+  padding: 3px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.copyButton i{
+
+  color: #BDBDBD;
+
+  /* transition: background-color 0.2s ease-out; */
 }
 
 
