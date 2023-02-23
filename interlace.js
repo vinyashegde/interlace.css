@@ -127,27 +127,4 @@ window.addEventListener('load', function(){
   }
   icon.addEventListener('click', showNav);
 });
-const codeBlocksContainer = document.getElementById("codeBlocksContainer");
 
-codeBlocksContainer.addEventListener("click", function(event) {
-  if (event.target.classList.contains("copyButton")) {
-    copyCode(event.target.previousElementSibling);
-  }
-});
-
-  function copyCode(codeBlockId, copyButtonId) {
-    const codeBlock = document.getElementById(codeBlockId);
-    const textArea = document.createElement("textarea");
-    textArea.value = codeBlock.textContent;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textArea);
-  
-    const copyButtonIcon = document.getElementById(copyButtonId).querySelector("i");
-    copyButtonIcon.style.color = "#474747";
-    setTimeout(function() {
-      copyButtonIcon.style.color = "#BDBDBD";
-    }, 500);
-  }
-  
