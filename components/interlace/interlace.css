@@ -186,90 +186,190 @@ codes {
   white-space: pre-wrap;
 }
 
-/* Dropdowns CSS */
-/* Dropdowns CSS */
+/* Cards CSS */
+/* Cards CSS */
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+/* Default Card */
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
 }
 
-.dropdown-btn {
-  background-color: rgb(65, 65, 255);
-  color: white;
-  padding: 10px 20px;
+/* Normal Card */
+
+.simple-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+.simple-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.simple-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.simple-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Boderless Card */
+
+.borderless-card {
+  box-shadow: none;
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
   border: none;
-  border-radius: 5px;
+}
+.borderless-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.borderless-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.borderless-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+/* Gradient Card */
+
+.gradient-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #FF416C, #FF4B2B);
+  color: #ffffff;
+}
+.gradient-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.gradient-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.gradient-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+/* Profile card */
 
-.dropdown-content a:hover {
-  background-color: lightgray;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-btn {
-  background-color: rgb(65, 65, 255);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-}
-
-.multi-column {
+.product-card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.product-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.product-card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.product-card-info-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.product-card-info-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8BC34A;
+}
+.product-card-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
 }
 
-.column {
-  flex: 1;
+
+/* Profile Card */
+
+.profile-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #f5f5f5;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
 }
-
-
-
-.rounded-input {
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
+.profile-card-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.profile-card-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.profile-card-email {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.profile-card-description {
   font-size: 16px;
-  font-weight: 500;
-  outline: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 1.5;
+  color: #555555;
+  margin-bottom: 20px;
 }
-
 
 
