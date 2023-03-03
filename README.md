@@ -41,9 +41,6 @@ Apple Safari
 Microsoft Edge
 Opera
 
-## Contributing
-If you would like to contribute to Interlace CSS, feel free to fork the repository and make a pull request.
-
 License
 Interlace CSS is licensed under the MIT License.
 
