@@ -21,9 +21,9 @@ To download the CSS file, simply clone or download the Interlace CSS repository 
 
 ## Website
 
-• [**Home**](https://vinyashegde.github.io/interlace/index.html)
+• [**Home**](https://vinyashegde.github.io/interlace.css/)
 
-• [**Docs**](https://vinyashegde.github.io/interlace/docs.html)
+• [**Docs**](https://vinyashegde.github.io/interlace.css/doc.html)
 
 ## Features
 - Various Button Effects
