@@ -45,13 +45,9 @@ nav {
 
 /* feature section */
 .feature {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature__item {
-  max-width: calc(33% - 20px);
-  margin: 0 20px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
 }
 
 .feature__item .section__title {
@@ -167,12 +163,11 @@ nav {
   .tab__container .code {
     margin-top: 2rem;
   }
-  .feature, .keybinding, .changelog__item {
+  .keybinding, .changelog__item {
     flex-direction: column;
   }
-  .feature__item {
-    max-width: 100%;
-    margin: 0;
+  .feature {
+    grid-template-columns: 1fr;
   }
   .keybinding {
     font-size: 0.8rem;
